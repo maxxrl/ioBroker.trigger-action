@@ -1,0 +1,79 @@
+{
+	"common": {
+		"name": "trigger-action",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Trigger Action",
+		"titleLang": {
+			"en": "Trigger Action",
+			"de": "Aktion auslösen",
+			"ru": "Триггерное действие",
+			"pt": "Ação de gatilho",
+			"nl": "Actie activeren",
+			"fr": "Action de déclenchement",
+			"it": "Attivazione dell'azione",
+			"es": "Activar acción",
+			"pl": "Akcja wyzwalania",
+			"zh-cn": "触发动作"
+		},
+		"desc": {
+			"en": "trigger-action",
+			"de": "Trigger-Aktion",
+			"ru": "спусковой крючок",
+			"pt": "ação de gatilho",
+			"nl": "trigger-actie",
+			"fr": "déclencheur-action",
+			"it": "azione di innesco",
+			"es": "gatillo-acción",
+			"pl": "wyzwalacz-akcja",
+			"zh-cn": "触发动作"
+		},
+		"authors": [
+			"maxxrl <m.wesener@gmx.de>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "build/main.js",
+		"icon": "trigger-action.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/maxxrl/ioBroker.trigger-action/main/admin/trigger-action.png",
+		"readme": "https://github.com/maxxrl/ioBroker.trigger-action/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "logic",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
